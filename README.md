@@ -1,3 +1,7 @@
+<p align="center">
+<img width="498" height="320" src="https://github.com/pilotneko/practical_bayes_opt/blob/master/images/gp_animated/gp_animated_2.gif">
+</p>
+
 # A Practical Guide to Bayesian Optimization
 This repo is a collection of code associated with the Data Science Nashville meetup held on January 24, 2018: A Practical Guide to Bayesian Optimization. The presentation can be viewed as a powerpoint (**Data_science_nashville_jkk.pptx**) or a pdf (**Data_science_nashville_jkk.pdf**).
 
