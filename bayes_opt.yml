@@ -1,7 +1,40 @@
 name: bayes_opt
 channels:
+- conda-forge
 - defaults
 dependencies:
+- bzip2=1.0.6=vc14_1
+- curl=7.55.1=vc14_0
+- cymem=1.31.2=py36_vc14_0
+- freetype=2.8.1=vc14_0
+- ftfy=4.4.2=py36_0
+- hdf5=1.8.18=vc14_2
+- icu=58.2=vc14_0
+- jpeg=9b=vc14_2
+- krb5=1.14.2=vc14_0
+- libiconv=1.14=vc14_4
+- libpng=1.6.34=vc14_0
+- libssh2=1.8.0=vc14_2
+- libtiff=4.0.9=vc14_0
+- libxml2=2.9.5=vc14_1
+- libxslt=1.1.32=vc14_0
+- lzo=2.10=vc14_0
+- msgpack-numpy=0.4.1=py_0
+- murmurhash=0.28.0=py36_vc14_0
+- openssl=1.0.2n=vc14_0
+- plac=0.9.6=py36_0
+- preshed=1.0.0=py36_vc14_0
+- qt=5.6.2=vc14_1
+- regex=2017.11.09=py36_0
+- spacy=2.0.4=py36_vc14_0
+- sqlite=3.20.1=vc14_2
+- termcolor=1.1.0=py36_1
+- thinc=6.10.0=py36_vc14_0
+- tk=8.6.7=vc14_0
+- tqdm=4.19.5=py_0
+- ujson=1.35=py36_0
+- yaml=0.1.7=vc14_0
+- zlib=1.2.11=vc14_0
 - alabaster=0.7.10=py36hcd07829_0
 - anaconda-client=1.6.5=py36hd36550c_0
 - anaconda=custom=py36h363777c_0
@@ -21,7 +54,6 @@ dependencies:
 - bokeh=0.12.10=py36h0be3b39_0
 - boto=2.48.0=py36h1a776d2_1
 - bottleneck=1.2.1=py36hd119dfa_0
-- bzip2=1.0.6=vc14hdec8e7a_1
 - ca-certificates=2017.08.26=h94faf87_0
 - cachecontrol=0.12.3=py36hfe50d7b_0
 - certifi=2017.7.27.1=py36h043bc9e_0
@@ -35,7 +67,6 @@ dependencies:
 - console_shortcut=0.1.1=h6bb2dd7_3
 - contextlib2=0.5.5=py36he5d52c0_0
 - cryptography=2.0.3=py36h123decb_1
-- curl=7.55.1=vc14hdaba4a4_3
 - cycler=0.10.0=py36h009560c_0
 - cython=0.26.1=py36h18049ac_0
 - cytoolz=0.8.2=py36h547e66e_0
@@ -53,17 +84,14 @@ dependencies:
 - filelock=2.0.12=py36hd7ddd41_0
 - flask=0.12.2=py36h98b5e8f_0
 - flask-cors=3.0.3=py36h8a3855d_0
-- freetype=2.8=vc14h17c9bdf_0
 - get_terminal_size=1.0.0=h38e98db_0
 - gevent=1.2.2=py36h342a76c_0
 - glob2=0.5=py36h11cc1bd_1
 - greenlet=0.4.12=py36ha00ad21_0
 - h5py=2.7.1=py36h20531f2_0
-- hdf5=1.8.18=hcf527f2_1
 - heapdict=1.0.0=py36h21fa5f4_0
 - html5lib=0.999999999=py36ha09b1f3_0
 - icc_rt=2017.0.4=h97af966_0
-- icu=58.2=vc14hc45fdbb_0
 - idna=2.6=py36h148d497_1
 - imageio=2.2.0=py36had6c2d2_0
 - imagesize=0.7.1=py36he29f638_0
@@ -77,7 +105,6 @@ dependencies:
 - jdcal=1.3=py36h64a5255_0
 - jedi=0.10.2=py36hed927a0_0
 - jinja2=2.9.6=py36h10aa3a0_1
-- jpeg=9b=vc14h4d7706e_1
 - jsonschema=2.6.0=py36h7636477_0
 - jupyter=1.0.0=py36h422fd7e_2
 - jupyter_client=5.1.0=py36h9902a9a_0
@@ -86,17 +113,10 @@ dependencies:
 - jupyterlab=0.27.0=py36h34cc53b_2
 - jupyterlab_launcher=0.4.0=py36h22c3ccf_0
 - lazy-object-proxy=1.3.1=py36hd1c21d2_0
-- libiconv=1.15=vc14h29686d3_5
-- libpng=1.6.32=vc14h5163883_3
-- libssh2=1.8.0=vc14hcf584a9_2
-- libtiff=4.0.8=vc14h04e2a1e_10
-- libxml2=2.9.4=vc14h8fd0f11_5
-- libxslt=1.1.29=vc14hf85b8d4_5
 - llvmlite=0.20.0=py36_0
 - locket=0.2.0=py36hfed976d_1
 - lockfile=0.12.2=py36h0468280_0
 - lxml=4.1.0=py36h0dcd83c_0
-- lzo=2.10=vc14h0a64fa6_1
 - markupsafe=1.0=py36h0e26971_1
 - matplotlib=2.1.0=py36h11b4b9c_0
 - mccabe=0.6.1=py36hb41005a_1
@@ -121,7 +141,6 @@ dependencies:
 - odo=0.5.1=py36h7560279_0
 - olefile=0.44=py36h0a7bdd2_0
 - openpyxl=2.4.8=py36hf3b77f6_1
-- openssl=1.0.2l=vc14hcac20b0_2
 - packaging=16.8=py36ha0986f6_1
 - pandas=0.20.3=py36hce827b7_2
 - pandoc=1.19.2.1=hb2460c7_1
@@ -163,7 +182,6 @@ dependencies:
 - pywin32=221=py36h9c10281_0
 - pyyaml=3.12=py36h1d1928f_1
 - pyzmq=16.0.2=py36h38c27d9_2
-- qt=5.6.2=vc14h6f8c307_12
 - qtawesome=0.4.4=py36h5aa48f6_0
 - qtconsole=4.3.1=py36h99a29a9_0
 - qtpy=1.3.1=py36hb8717c5_0
@@ -187,12 +205,10 @@ dependencies:
 - sphinxcontrib-websupport=1.0.1=py36hb5e5916_1
 - spyder=3.2.4=py36h8845eaa_0
 - sqlalchemy=1.1.13=py36h5948d12_0
-- sqlite=3.20.1=vc14h7ce8c62_1
 - statsmodels=0.8.0=py36h6189b4c_0
 - sympy=1.1.1=py36h96708e0_0
 - tblib=1.3.2=py36h30f5020_0
 - testpath=0.3.1=py36h2698cfe_0
-- tk=8.6.7=vc14hb68737d_1
 - toolz=0.8.2=py36he152a52_0
 - tornado=4.5.2=py36h57f6048_0
 - traitlets=4.3.2=py36h096827d_0
@@ -214,18 +230,20 @@ dependencies:
 - xlsxwriter=1.0.2=py36hf723b7d_0
 - xlwings=0.11.4=py36hd3cf94d_0
 - xlwt=1.3.0=py36h1a4751e_0
-- yaml=0.1.7=vc14hb31d195_1
 - zict=0.1.3=py36h2d8e73e_0
-- zlib=1.2.11=vc14h1cdd9ab_1
 - pip:
   - backports.shutil-get-terminal-size==1.0.0
   - bayesian-optimization==0.6.0
+  - catboost==0.5.2.1
+  - en-core-web-sm==2.0.0
   - et-xmlfile==1.0.1
   - ipython-genutils==0.2.0
   - jupyter-client==5.1.0
   - jupyter-console==5.2.0
   - jupyter-core==4.3.0
   - jupyterlab-launcher==0.4.0
+  - mlxtend==0.10.0
+  - pathlib==1.0.1
   - prompt-toolkit==1.0.15
   - ruamel-yaml==0.11.14
   - tables==3.4.2
