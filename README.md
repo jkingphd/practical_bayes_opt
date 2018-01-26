@@ -19,6 +19,8 @@ This repo is a collection of code associated with the Data Science Nashville mee
 - **utility_functions.ipynb**: Visualization of different utility functions used in Bayesian Optimization.
 
 # References
+## Bayesian Optimization Package
+- [Bayesian Optimization](https://github.com/fmfn/BayesianOptimization)
 ## Excellent series of video from Nando de Freitas' course @ UBC.
 - [Introduction to Gaussian Processes](https://www.youtube.com/watch?v=4vGiHC35j9s&t=1s)
 - [Regression with Gaussian Processes](https://www.youtube.com/watch?v=MfHKW5z-OOA)
